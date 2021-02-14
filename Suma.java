@@ -1,15 +1,16 @@
-package suma;
+package calculadora;
 
 	/**
-	 * Esta clase implementara todos los metodos que esten relacionados con la sumas de la calculadora.
-	 * Los operandos no pueden ser numeros negativos
+	 * Esta clase implementara todos los metodos que estan relacionados con la sumas de la calculadora.
+	 * Los operandos no pueden ser n�meros negativos
 	 * 
 	 * @author Rodri
 	 *
 	 */
 
 public class Suma {
-	
+    //Declaro esta variable como el acumulador del metodo sumar4
+	static int suma;
 		/**
 		 * Suma de dos numeros reales de los parametros operando1 y operando2, devolviendo su suma.
 		 * 
@@ -63,9 +64,11 @@ public class Suma {
 		 * @return Resultado de la suma
 		 */
 	
-	public int sumar4(int operando1){
-            return 0;
-            
+	public static int sumar4(int operando1){
 
+            suma=suma+operando1;
+
+            return suma;
+            
     }
 }
