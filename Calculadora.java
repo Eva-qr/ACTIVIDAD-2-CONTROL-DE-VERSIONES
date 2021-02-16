@@ -33,7 +33,9 @@ public class Calculadora {
 		System.out.println("El resultado de esta resta es: " +r.resta1 (19.2 , 2.77));
 		System.out.println("El resutaldo de la resta2 es: " + r.resta2 (7 , 3));
 		System.out.println("El resultado de la resta3 es: " + r.resta3 (74.3 , 35.2 , 11.7));
-		System.out.println("El resultado es: "+ r.resta4(5)); 
+		System.out.println("El resultado de la resta4 es: "+ r.resta4(5)); 
+                System.out.println("El resultado de la resta4 es: "+ r.resta4(6));
+                System.out.println("El resultado de la resta4 es: " + r.resta4(10));
 		
 	}
 	
