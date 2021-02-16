@@ -19,7 +19,7 @@ public class Calculadora {
 		Suma s = new Suma();
 //		Cociente c = new Cociente();
 //		Potencia p = new Potencia();
-//		Resta r = new Resta();
+		Resta r = new Resta();
 		
 		 // Prueba de clase suma                
                 System.out.println("Prueba metodo suma1 = "+s.sumar1(2.3, 3.4));
@@ -28,6 +28,13 @@ public class Calculadora {
                 System.out.println("Prueba metodo suma4 (1º numero) = "+s.sumar4(1));
                 System.out.println("Prueba metodo suma4 (2º numero) = "+s.sumar4(23));
                 System.out.println("Prueba metodo suma4 (3º numero) = "+s.sumar4(3));
+		
+		//Prueba de clase resta
+		System.out.println("El resultado de esta resta es: " +r.resta1 (19.2 , 2.77));
+		System.out.println("El resutaldo de la resta2 es: " + r.resta2 (7 , 3));
+		System.out.println("El resultado de la resta3 es: " + r.resta3 (74.3 , 35.2 , 11.7));
+		System.out.println("El resultado es: "+ r.resta4(5)); 
+		
 	}
 	
 }
