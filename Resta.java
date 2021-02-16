@@ -19,7 +19,7 @@ public class Resta {
 	 * @throws excepcion: los numeros no pueden ser negativos.
 	 */
 
-public double Resta1(double oper1, double oper2) {
+public double resta1(double oper1, double oper2) {
 	return oper1 - oper2;
 }
     /**
@@ -33,7 +33,7 @@ public double Resta1(double oper1, double oper2) {
 
      */
 
-public int Resta2(int oper1, int oper2) {
+public int resta2(int oper1, int oper2) {
 	return oper1 - oper2;
 }
      /**
@@ -47,7 +47,7 @@ public int Resta2(int oper1, int oper2) {
       * 
       */
 
-public double Resta3(double oper1, double oper2, double oper3) {
+public double resta3(double oper1, double oper2, double oper3) {
 	double resultado = oper1-oper2-oper3;
 	return resultado;
 }
@@ -60,7 +60,7 @@ public double Resta3(double oper1, double oper2, double oper3) {
       * 	
       */
     
-    public static int Resta4(int oper1){
+    public static int resta4(int oper1){
 
         acumulador=acumulador-oper1;
 
