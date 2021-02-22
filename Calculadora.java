@@ -17,7 +17,7 @@ public class Calculadora {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Suma s = new Suma();
-//		Cociente c = new Cociente();
+		Cociente c = new Cociente();
 		Potencia p = new Potencia();
 		Resta r = new Resta();
 		
@@ -43,7 +43,14 @@ public class Calculadora {
 		System.out.println("Prueba metodo potencia3 = " + p.potencia3 (74.3 , 35.2 , 11.7));
 		System.out.println("Prueba metodo potencia4 = " + p.potencia4(5)); 
                 System.out.println("Prueba metodo potencia4 = " + p.potencia4(6));
-                System.out.println("Prueba metodo potencia4 = " + p.potencia4(10))
+                System.out.println("Prueba metodo potencia4 = " + p.potencia4(10));
+		
+		//Prueba de clase Cociente
+		System.out.println("Prueba metodo division1 = " + c.division1(12.00, 3));
+		System.out.println("Prueba metodo division2 = " + c.division2(4, 2));
+		System.out.println("Prueba metodo inverso = " + c.inverso(12.00));
+		System.out.println("Prueba metodo raiz = " + c.raiz(12.00));
+		
 	}
 	
 }
