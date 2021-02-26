@@ -9,8 +9,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import calculadora.Potencia;
-
-class _00_PruebaPotenciaAntigua {
+/**
+ * 
+ * @author GemmaMG
+ *
+ */
+public class _00_PruebaPotenciaAntigua {
 
 	    @BeforeAll
 	    static void setUpBeforeClass() throws Exception {
