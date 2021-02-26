@@ -38,37 +38,62 @@ public class _00_PruebaPotenciaAntigua {
 	    
 		@Test
 		public void testPotencia1() {
-			System.out.println("Este es el primer test");
-			Potencia p1 = new Potencia();
-			p1.potencia1(19, 2);
-			assertEquals(7 , 1 , p1.potencia1(4,2));
+			System.out.println("Este es el test Potencia1");
+			int x = 4;
+			int y = 2;
+			Potencia instance = new Potencia();
+			int expResult = 0;
+			int result = instance.potencia1(x,y);
+			assertEquals(expResult, result);
+			if (result !=expResult) {
+				fail ("El test ha fallado");
+			}
 
 		}
 
 		@Test
 		public void testPotencia2() {
-			System.out.println("Este es el segundo test");
-			Potencia p2 = new Potencia();
-			p2.potencia2(7, 3);
-			
-			assertEquals(7 , 3 , p2.potencia2(5, 5));
+			System.out.println("Este es el test Potencia2");
+			int x = 6;
+			int y = 3;
+			Potencia instance = new Potencia();
+			int expResult = 0;
+			int result = instance.potencia2(x,y);
+			assertEquals(expResult, result);
+			if (result !=expResult) {
+				fail ("El test ha fallado");
+			}
+
 		}
 		
 		@Test
 		public void testPotencia3() {
-			System.out.println("Este es el tercer test");
-			Potencia p3 = new Potencia ();
-			p3.potencia3(7, 5, 3);
-			
-			assertNotNull(p3.potencia3(4, 5, 4));
+			System.out.println("Este es el test Potencia3");
+			int x = 4;
+			int y = 2;
+			int z = 3;
+			Potencia instance = new Potencia();
+			int expResult = 0;
+			int result = instance.potencia3(x,y,z);
+			assertEquals(expResult, result);
+			if (result !=expResult) {
+				fail ("El test ha fallado");
+			}
+
 		}
 		
 		@Test
 		public void testPotencia4() {
-			System.out.println("Este es el cuarto test");
-			Potencia p4 = new Potencia ();
-			p4.potencia4(2, 3);
-			
-			assertEquals(1, 2, p4.potencia4(2, 2));
+			System.out.println("Este es el test Potencia4");
+			int m = 2;
+			int n = 3;
+			Potencia instance = new Potencia();
+			int expResult = 0;
+			int result = instance.potencia4(m,n);
+			assertEquals(expResult, result);
+			if (result !=expResult) {
+				fail ("El test ha fallado");
+			}
+
 		}
-	}
+}
