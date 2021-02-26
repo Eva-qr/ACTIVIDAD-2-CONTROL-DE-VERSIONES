@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 package suma;
-=======
+
 package calculadora;
->>>>>>> b6ae4ac3a7f4c5ee7365027e6b78476ddf604bc0
+
 
 	/**
 	 * Esta clase implementara todos los metodos que estan relacionados con la sumas de la calculadora.
@@ -33,11 +32,8 @@ public class Suma {
 		/**
 		 * Suma de dos numeros enteros de los parametros operando1 y operando2, devolviendo su suma.
 		 * 
-<<<<<<< HEAD
 		 * [Los operandos no pueden ser n�meros negativos]
-=======
 		 * [Los operandos no pueden ser numeros negativos]
->>>>>>> b6ae4ac3a7f4c5ee7365027e6b78476ddf604bc0
 		 * 
 		 * @param operando1 Primer operando que se sumara a operando2
 		 * @param operando2 Segundo opernado que se sumara a el opernado1
@@ -49,11 +45,8 @@ public class Suma {
 	}
 	
 		/**
-<<<<<<< HEAD
 		 * Suma de tres numeros reales, de los operandos 1,2 y 3 dados en los par�metros de entrada, devolviendo la suma de los mismos
-=======
 		 * Suma de tres numeros reales, de los operandos 1,2 y 3 dados en los parametros de entrada, devolviendo la suma de los mismos
->>>>>>> b6ae4ac3a7f4c5ee7365027e6b78476ddf604bc0
 		 * 
 		 * [Los operandos no pueden ser numeros negativos]
 		 * 
